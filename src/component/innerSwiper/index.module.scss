@@ -1,0 +1,29 @@
+$size:37.5;
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+.goodsImg{
+    width: 100%;
+    height: 100%;
+}
+.innerContent p{
+    color: #000;
+}
+.innerContent{
+    position: absolute;
+    left: 7%;
+    top: 37%;
+    color: #fff;
+    text-align: left;
+}
+.innerTitle{
+    font-size: 18rem/$size;
+    font-weight: bold;
+    width: 150rem/$size;
+    margin-bottom: 5rem/$size;
+}
+.subheading{
+    font-size: 13rem/$size;
+}

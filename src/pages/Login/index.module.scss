@@ -1,0 +1,159 @@
+$size:37.5;
+
+.loginWrap{
+    padding: 24rem/$size 20rem/$size 0;
+    background-color: #fff;
+    // min-height: 100%;
+    width: 100%;
+    position: relative;
+    height: 667rem/$size;
+}
+.header{
+    line-height: 18rem/$size;
+    text-align: left;
+    font-size: 13rem/$size;
+    margin-bottom: 12rem/$size;
+}
+.header span:nth-child(1){
+    margin-right: 24rem/$size;
+    padding-right: 24rem/$size;
+    border-right: 1px solid #9c9c9c;
+}
+.active{
+    color: #fe4320;
+}
+.register{
+    text-align: left;
+    color: #9c9c9c;
+    line-height: 18rem/$size;
+    margin-bottom: 20rem/$size;
+}
+.register a{
+    color: #fe4320;
+    width: auto;
+}
+.user{
+    width: 100%;
+}
+.user p{
+    margin-bottom: 20rem/$size;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e1dbcc;
+    position: relative;
+    height: 40rem/$size;
+    position: relative;
+}
+.caution{
+    position: absolute;
+    left: 0;
+    bottom: -52%;
+    z-index: 50;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    line-height: 20rem/$size;
+    color: #fe4320;
+    font-size: 12rem/$size;
+}
+.user input{
+    width: 100%;
+    height: 100%;
+    padding: 0 32rem/$size;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+.user p:nth-child(1)::before,.user p:nth-child(2)::before{
+    content: '';
+    display: inline-block;
+    width: 20rem/$size;
+    height: 20rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons.png?4')no-repeat;
+    background-size: 200rem/$size 200rem/$size;
+    background-position: -60rem/$size -40rem/$size;
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+.user p:nth-child(2)::before{
+    background-position: -20rem/$size -40rem/$size;
+}
+.top{
+    margin-top: 40rem/$size;
+}
+.sendBtn{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    width: 92rem/$size;
+    font-size:12rem/$size;
+    padding: 0;
+    height: 100% ;
+    position: relative;
+    outline: none;
+}
+.sendBtn:before{
+    width: 1px;
+    height: 15rem/$size;
+    content: "";
+    display: inline-block;
+    background-color: #fe4320;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+.logIn{
+    margin-top: 45rem/$size;
+    width: 100%;
+    height: 40rem/$size;
+    background: #fe4320;
+    border: none;
+    color: #fff;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translateX(-50%);
+}
+.footer h3{
+    font-size: 12rem/$size;
+    font-weight: normal;
+    line-height: 20rem/$size;
+    position: relative;
+}
+.footer h3::before{
+    content: "";
+    display: inline-block;
+    height: .5px;
+    width: 100rem/$size;
+    background-color: #666;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 40rem/$size;
+}
+.footer h3::after{
+    content: "";
+    display: inline-block;
+    height: .5px;
+    width: 100rem/$size;
+    background-color: #666;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40rem/$size;
+}
+.footer a{
+    width: 40rem/$size;
+    height: 40rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icon_social.png')no-repeat;
+    background-size: 40rem/$size 400rem/$size;
+    background-position: 0 0;
+    margin-top:20rem/$size;
+}

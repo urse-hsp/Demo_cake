@@ -1,0 +1,299 @@
+$size:37.5;
+
+.goodsWrap{
+    background-color: #f4f4f4;
+    padding-bottom: 60rem/$size;
+}
+.headImg{
+    background-color: #fff;
+}
+.headImg img{
+    width: 100%;
+}
+.ContentWrap{
+    padding: 16rem/$size 20rem/$size;
+    background-color: #fff;
+}
+.goodsContent{
+    position: relative;
+}
+.goodsContent a,.specification h3::after,.member em:after{
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+}
+.goodsContent a{
+    width: 30rem/$size;
+    height: 30rem/$size;
+    background-position: -0rem/$size -0rem/$size;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.goodsContent h2{
+    font-weight: normal;
+    margin-top: 1rem/$size;
+}
+.goodsContent h2:nth-child(2){
+    color: #cea461;
+    margin-top: 14rem/$size;
+    font-size: 21rem/$size;
+}
+.member{
+    margin-top: 12rem/$size;
+    padding: 6rem/$size 20rem/$size;
+    text-align: left;
+    position: relative;
+    border-left: 2px solid #e8380d;
+    background-color: #f9f9f9;
+}
+.member em{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    font-style: normal;
+    transform: translateY(-50%);
+    padding: 0 16rem/$size;
+    color: #cea461;
+    line-height: 20rem/$size;
+    border-left: 1px solid #cea461;
+}
+.member em:after{
+    content: '';
+    display: inline-block;
+    width: 30rem/$size;
+    height: 30rem/$size;
+    background-position: -32rem/$size -0rem/$size;
+    position: absolute;
+    top: 50%;
+    right: -18%;
+    transform: translateY(-50%);
+}
+.member h3{
+    color: #cea461;
+    font-weight: normal;
+    font-size: 14rem/$size;
+    line-height: 21rem/$size;
+}
+.member h4{
+    font-weight: normal;
+    line-height: 18rem/$size;
+    font-size: 12rem/$size;
+}
+.specification{
+    margin-top: 16rem/$size;   
+    text-align: left;
+}
+.specification h3{
+    border-left: 2px solid #e8380d;
+    line-height: 18rem/$size;
+    padding-left: 12rem/$size;
+    font-weight: normal;
+    font-size: 12rem/$size;
+    position: relative;
+}
+.specification h3::after{
+    content: '';
+    display: inline-block;
+    width: 30rem/$size;
+    height: 30rem/$size;
+    background-position: -60rem/$size -60rem/$size;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.specification p{
+    padding-left: 12rem/$size;
+    line-height: 18rem/$size;
+    margin-top: 4rem/$size;
+}
+.specification div{
+    padding-left: 12rem/$size;
+    line-height: 18rem/$size;
+    margin-top: 4rem/$size;
+    display: flex;
+}
+.specification div i{
+    margin-left: 5rem/$size;
+    display: inline-block;
+    width: 65rem/$size;
+    height: 17rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/sweetIcons.png')no-repeat center;
+    background-size: 200%;
+    background-position: 38% center ;
+}
+.comment{
+    margin-top: 10rem/$size;
+    padding: 16rem/$size 0 12rem/$size;
+    background-color: #fff;
+}
+.commentList{
+    white-space: nowrap;
+    overflow-x: scroll;
+}
+.commentList::-webkit-scrollbar {display:none}
+.commentContent{
+    padding: 10rem/$size;
+    border: 1px solid #d1d1d1;
+    margin-left: 16rem/$size;
+    text-align: left;
+    width: 240rem/$size;
+    display: inline-block;
+    vertical-align: top;
+}
+.commentContent h3{
+    font-size: 10rem/$size;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    line-height: 15rem/$size;
+    color: #9c9c9c;
+}
+.commentContent p{
+    margin-top: 5rem/$size;
+    line-height: 15rem/$size;
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.more{
+    line-height: 30rem/$size;
+}
+.details{
+    background-color: #fff;
+    margin-top: 10rem/$size;
+}
+.details img{
+    width: 100%;
+}
+.seek h2,.edible h2,.boast h2,.edible2 h2{
+    text-align: center;
+    font-size: 15rem/$size;
+    color: #a6906c;
+    margin: 0 16rem/$size 20rem/$size;;
+    padding-top: 20rem/$size;
+}
+.seek ul{
+    margin: 18rem/$size 0;
+}
+.seek li{
+    color: #3e3e3e;
+    line-height: 18rem/$size;
+}
+.edible,.boast{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    line-height: 24rem/$size;
+    color: #3e3e3e;
+}
+.edible2{
+    width: 70%;
+    margin: auto;
+    line-height: 24rem/$size;
+    color: #3e3e3e;
+    text-align: center !important;
+}
+.edible p:last-child{
+    color: red;
+}
+.boast{
+    text-align: center;
+}
+.recommend>h2{
+    padding: 10rem/$size 0;
+    line-height: 21rem/$size;
+    font-size: 13rem/$size;
+    color: #666;
+}
+.goodsList{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 16rem/$size;
+    justify-content: space-between;
+}
+.goods{
+    width: 48%;
+    background-color: #fff;
+    padding: 8rem/$size;
+    margin-top: 10rem/$size;
+}
+.goods img{
+    width: 100%;
+}
+
+.goodsConntent{
+    text-align: left;
+}
+.goodsConntent h2{
+    font-weight: normal;
+    font-size: 12rem/$size;
+    color: #000;
+    line-height: 23rem/$size;
+}
+.goodsConntent p{
+    color: #9c9c9c;
+    margin: 3rem/$size 0;
+    height: 26rem/$size;
+    line-height: 13rem/$size;
+    font-size: 10rem/$size;
+}
+.goodsConntent div{
+    color: #cea461;
+    font-weight: 500;
+    font-size: 14rem/$size;
+    margin-bottom: 7rem/$size;
+}
+.header{
+    height: 50rem/$size;
+    line-height: 50rem/$size;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #9c9c9c;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-size: 13rem/$size;
+    transform: translateY(-100%);
+    transition: all .4s;
+    z-index: 999;
+}
+.headerAction{
+    transform: translateY(0%);
+}
+.header a{
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.header a:last-child:before{
+    content: '';
+    display: inline-block;
+    width: 20rem/$size;
+    height: 20rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+    background-position: -95rem/$size -5rem/$size;
+}
+.active{}
+.active:after{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 28%;
+    height: 2px;
+    background: #3e3e3e;
+    z-index: 1;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+}

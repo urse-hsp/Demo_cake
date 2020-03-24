@@ -1,0 +1,12 @@
+$size:37.5;
+
+.goTop{
+    width: 40rem/$size;
+    height: 40rem/$size;
+    position: fixed;
+    right: 3.5%;
+    bottom: 10%;
+    border-radius: 50%;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/goods/backTop.png')no-repeat;
+    background-size: cover;
+}

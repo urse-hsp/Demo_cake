@@ -1,0 +1,144 @@
+$size:37.5;
+
+.header{
+    width: 100%;
+    background-color: #fff;
+    padding: 15rem/$size 14rem/$size 10rem/$size;
+}
+.headerPadding{
+    padding: 30rem/$size 20rem/$size 24rem/$size;
+}
+.logOut div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logOut div img{
+    width: 55rem/$size;
+}
+.logOut a{
+    border-radius: 2px;
+    background: #a38d6b;
+    color: #ffffff;
+    width: 60rem/$size;
+    height: 24rem/$size;
+    line-height: 24rem/$size;
+    margin: 10rem/$size 0 12rem/$size;
+}
+.logIn{}
+.userMessage{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.userMessage img{
+    width: 55rem/$size;
+}
+.userMessage a{
+    width: auto;
+    height: auto;
+}
+.userMessage span{
+    font-weight: bold;
+    margin-left: 15rem/$size;
+}
+.userMessage em{
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+    background: #a38d6b;
+    padding: 2.2rem/$size 3rem/$size;
+    border-radius: 3px;
+    margin-left: 13rem/$size;
+}
+.welfare{
+    margin-top: 20rem/$size;
+    display: flex;
+}
+.welfare div{
+    flex: 1;
+}
+.welfare div p:nth-child(1){
+    line-height: 22rem/$size;
+    font-weight: bold;
+}
+.welfare div p:nth-child(2){
+    line-height: 18rem/$size;
+}
+.mian{
+    padding: 0 20rem/$size;
+    width: 100%;
+}
+.myOrder,.MyService{
+    background-color: #fff;
+    margin: 10rem/$size 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.myOrder h2,.MyService h2{
+    font-size: 12rem/$size;
+    text-align: left;
+    line-height: 18rem/$size;
+    padding: 10rem/$size;
+    font-weight: normal;
+    border-bottom: 1px solid #f9f9f9;
+}
+.myOrder ul,.MyService ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.myOrder li,.MyService li{
+    width: 25%;
+    height: 32rem/$size;
+    padding-top: 40rem/$size;
+    margin: 10rem/$size 0;
+    box-sizing: content-box;
+    position: relative;
+}
+.OpenService{
+    width: 100%;
+}
+.myOrder li a:before,.MyService li a:before{
+    content: '';
+    display: inline-block;
+    width: 40rem/$size;
+    height: 40rem/$size;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url('https://newimgcdn.lapetit.cn/h5/images/customer/index/icons.png')no-repeat;
+    background-size: 200rem/$size 200rem/$size;
+}
+.myOrder li:nth-child(1) a:before{
+    background-position: 0 0;
+}
+.myOrder li:nth-child(2) a:before{
+    background-position: -40rem/$size 0;
+}
+.myOrder li:nth-child(3) a:before{
+    background-position: -80rem/$size 0;
+}
+.myOrder li:nth-child(4) a:before{
+    background-position: -120rem/$size 0;
+}
+
+.MyService li:nth-child(1) a:before{
+    background-position: -160rem/$size 0;
+}
+.MyService li:nth-child(2) a:before{
+    background-position: -80rem/$size -80rem/$size;
+}
+.MyService li:nth-child(3) a:before{
+    background-position: 0rem/$size -40rem/$size;
+}
+.MyService li:nth-child(4) a:before{
+    background-position: -120rem/$size -40rem/$size;
+}
+.MyService li:nth-child(5) a:before{
+    background-position: -160rem/$size -40rem/$size;
+}
+.MyService li:nth-child(6) a:before{
+    background-position: -40rem/$size -80rem/$size;
+}

@@ -1,0 +1,125 @@
+$size:37.5;
+
+.wrap{
+    padding-bottom: 60rem/$size;
+    background-color: rgba(255,255,255,1);
+}
+.location,.screen{
+    color: #000;
+    padding: 1rem/$size 8rem/$size;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    width: 15%;
+}
+.location:before{
+    content: '';
+    display: inline-block;
+    width: 15rem/$size;
+    height: 20rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+    background-position: -247.5rem/$size -5rem/$size;
+    transform: scale(.85);
+}
+.screen{
+    width: 18%;
+    font-size: 12rem/$size;
+}
+.screen:before{
+    content: '';
+    display: inline-block;
+    width: 18rem/$size;
+    height: 20rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_1.png?1')no-repeat;
+    background-size: 200rem/$size 200rem/$size;
+    background-position: -182rem/$size -40rem/$size;
+}
+.header{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 32rem/$size;
+    line-height: 32rem/$size;
+    border-bottom: 1px solid #3e3e3e;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.classify{
+    margin-left: 10rem/$size;
+}
+.classify a{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    margin:  0 15rem/$size;
+    font-size: 12rem/$size;
+}
+.goodsList{
+    margin-top: 32rem/$size;
+    padding: 15rem/$size;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.goodsList .goods{
+    width: 48%;
+}
+.goods img{
+    width: 100%;
+}
+.goodsConntent{
+    text-align: left;
+}
+.goodsConntent h2{
+    font-weight: normal;
+    font-size: 12rem/$size;
+    color: #000;
+    line-height: 23rem/$size;
+}
+.goodsConntent p{
+    color: #9c9c9c;
+    margin: 3rem/$size 0;
+    height: 26rem/$size;
+    line-height: 13rem/$size;
+    font-size: 10rem/$size;
+}
+.goodsConntent div{
+    color: #cea461;
+    font-weight: 500;
+    font-size: 14rem/$size;
+    margin-bottom: 7rem/$size;
+}
+.action{
+    color: red;
+}
+.footer{
+    line-height: 18rem/$size;
+    padding: 12rem/$size 0 32rem/$size;
+}
+.footer p{
+    display: inline-block;
+    position: relative;
+}
+.footer p:before{
+    content: '';
+    position: absolute;
+    width: 27rem/$size;
+    height: 1px;
+    background: #9c9c9c;
+    z-index: 1;
+    top: 50%;
+    left: -50%;
+}
+.footer p:after{
+    content: '';
+    position: absolute;
+    width: 27rem/$size;
+    height: 1px;
+    background: #9c9c9c;
+    z-index: 1;
+    top: 50%;
+    right: -50%;
+}

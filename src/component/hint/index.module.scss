@@ -1,0 +1,14 @@
+$size:37.5;
+
+.hint{
+    position: fixed;
+    width: auto !important;
+    left: 40%;
+    top: 50%;
+    background-color: rgba(53,54,53,1);
+    color: #fff;
+    height: 33rem/$size;
+    line-height: 33rem/$size;
+    padding: 1rem/$size 10rem/$size;
+    border-radius: 4rem/$size;
+}

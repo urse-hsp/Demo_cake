@@ -1,0 +1,171 @@
+$size:37.5;
+
+.wrap{
+    padding-bottom: 60rem/$size;
+    background-color: rgba(248,248,248,1);
+}
+.header{
+    height: 568rem/$size;
+    position: relative;
+}
+.location{
+    color: #fff;
+    padding: 1rem/$size 8rem/$size;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 5%;
+    top: 2.8%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15rem/$size;
+}
+.location::before{
+    content: '';
+    display: inline-block;
+    width: 15rem/$size;
+    height: 20rem/$size;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+    background-position: -38rem/$size -35rem/$size;
+}
+.member{
+    width: 100%;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/home/ahaPanelBg.jpg?03')no-repeat;
+    background-size: cover;
+    height: 223rem/$size;
+    position: relative;
+}
+.know{
+    font-size: 13.5rem/$size;
+    position: absolute;
+    left: 5%;
+    top: 32%;
+    text-align: left;
+    line-height: 20rem/$size;
+}
+.know a{
+    display: inline;
+    color: #cea461;
+    text-decoration: underline;
+}
+.back img{
+    width: 115rem/$size;
+    height: 154rem/$size;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-45%);
+}
+.btn{
+    position: absolute;
+    left: 5%;
+    top: 68%;
+    text-align: left;
+    line-height: 29rem/$size;
+    padding: 0 13rem/$size;
+    background-color: #cda366;
+    font-size: 11rem/$size;
+}
+.btn a{
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 145rem/$size;
+}
+.innerSwiper{
+    width: 100%;
+    height: 145rem/$size;
+    position: relative;
+}
+.recommend{
+    margin-top: 26rem/$size;
+    margin-bottom: 6rem/$size;
+    font-size: 10rem/$size;
+    color: #666;
+}
+.GoodsRecommend{
+    width: 100%;
+    height: 250rem/$size;
+    margin-top: 10rem/$size;
+    position: relative;
+}
+.GoodsRecommend img{
+    width: 100%;
+    height: 100%;
+}
+.goodsTitle{
+    position: absolute;
+    left: 0;
+    top: 9%;
+    text-align: left;
+    color: #000;
+    padding-left: 5.1%;
+}
+.goodsTitle::before{
+    content: "";
+    display: inline-block;
+    width: 5px;
+    height: 15px;
+    background: #e8380d;
+    position: absolute;
+    left: 10rem/$size;
+}
+.goodsTitle p:nth-child(1){
+    font-size: 15rem/$size;
+}
+.goodsTitle p:nth-child(2){
+    font-size: 12rem/$size;
+    margin-top: 5rem/$size;
+}
+.guild{
+    padding: 15rem/$size 20rem/$size;
+    margin-top: 15rem/$size;
+    display: flex;
+    background-color: #fff;
+}
+.guild a{
+    flex: 1;
+}
+.guild a::before{
+    content: '';
+    display: block;
+    width: 30rem/$size;
+    height: 30rem/$size;
+    margin: auto;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+}
+.guild a:nth-child(1):before{
+    background-position: -120rem/$size 0rem/$size;
+}
+.guild a:nth-child(2):before{
+    background-position: -150rem/$size 0rem/$size;
+}
+.guild a:nth-child(3):before{
+    background-position: -180rem/$size 0rem/$size;
+}
+.copyright{
+    padding: 22rem/$size 0 8rem/$size;
+}
+.copyright div{
+    display: flex;
+    justify-content: center;
+}
+.copyright div a{
+    width: 65rem/$size;
+    border: 1px solid #666;
+    margin: 0 8rem/$size;
+    line-height: 20rem/$size;
+}
+.copyright h3{
+    margin-top: 18rem/$size;
+    color: #bababa;
+    font-size: 12rem/$size;
+    font-weight: normal;
+}
+.copyright h3 a{
+    color: #bababa;
+    display: inline;
+}

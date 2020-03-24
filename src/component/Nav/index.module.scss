@@ -1,0 +1,58 @@
+$size:37.5;
+
+.footer{
+    width: 100%;
+    height: 60rem/$size;
+    border-top: 1px solid red;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    z-index: 50;
+    background-color: #fff;
+}
+.footer li{
+    flex: 1;
+}
+.footer a{
+    color: #000;
+    position: relative;
+}
+.footer a:before{
+    content: '';
+    display: block;
+    width: 40rem/$size;
+    height: 40rem/$size;
+    margin: auto;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/main_nav_5.png?')no-repeat;
+    background-size: 83rem/$size 165rem/$size;
+}
+.footer li:nth-child(1) a:before{
+    background-position: -0rem/$size -0rem/$size;
+}
+.footer li:nth-child(2) a:before{
+    background-position: -0rem/$size -40rem/$size;
+}
+.footer li:nth-child(3) a:before{
+    background-position: -0rem/$size -80rem/$size;
+}
+.footer li:nth-child(4) a:before{
+    background-position: -0rem/$size -120rem/$size;
+}
+.footer i{
+    position: absolute;
+    top: 2%;
+    right: 30%;
+    font-style: normal;
+    display: inline-block;
+    width: 15rem/$size;
+    height: 15rem/$size;
+    line-height: 15rem/$size;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+}
+.action{color: #dc0000!important;};
+.action:before{
+    background-position-x: -42rem/$size!important;
+}

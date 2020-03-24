@@ -1,0 +1,42 @@
+$size:37.5;
+
+.AffirmWrap{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 888;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.Affirm{
+    position: fixed;
+    left: 50%;
+    top: 19%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background-color: #fff;
+    width: 270rem/$size;
+    border-radius: 10rem/$size;
+    overflow: hidden;
+}
+.Affirm div{
+    padding: 24rem/$size 30rem/$size 28rem/$size;
+    font-size: 13.5rem/$size;
+    line-height: 24rem/$size;
+}
+.Affirm footer{
+    border-top: 1px solid #dadade;
+    display: flex;
+}
+.Affirm footer button{
+    border: none;
+    flex: 1;
+    height: 44rem/$size;
+    background-color: #fff;
+    color: #ff4001;
+    outline: none;
+}
+.Affirm footer button:nth-child(2){
+    border-left: 1px solid #dadade;
+}

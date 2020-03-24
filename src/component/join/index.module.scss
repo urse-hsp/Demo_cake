@@ -1,0 +1,65 @@
+$size:37.5;
+
+
+.JoinNav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 54rem/$size;
+    border-top: 1px solid #d1c6af;
+    background-color: #fff;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+}
+.JoinNav div{
+    width: 62.6%;
+    display: flex;
+}
+.JoinNav div a{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.JoinNav div a:before{
+    content: '';
+    display: flex;
+    width: 30rem/$size;
+    height: 30rem/$size;
+    background-color: red;
+    background: url('https://newimgcdn.lapetit.cn/h5/images/main_nav_8.png')no-repeat;
+    background-size: 60rem/$size 240rem/$size;
+}
+.JoinNav div a:nth-child(1):before{
+    background-position:  -30rem/$size -0rem/$size;
+}
+.JoinNav div a:nth-child(2):before{
+    background: url('https://newimgcdn.lapetit.cn/h5/images/icons_5.png?1')no-repeat;
+    background-size: 300rem/$size 300rem/$size;
+    background-position:  0rem/$size -30rem/$size;
+}
+.JoinNav div a:nth-child(3):before{
+    background-position:  -30rem/$size -60rem/$size;
+}
+.JoinNav button{
+    width: 37.4%;
+    height: 100%;
+    color: #fff;
+    background-color: #ff4001;
+    border: none;
+}
+.quantity{
+    position: absolute;
+    right: 20%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-color: #ff4001;
+    color: #fff;
+    border-radius: 50%;
+    width: 16rem/$size;
+    height: 16rem/$size;
+    line-height: 16rem/$size;
+    text-align: center;
+}
