@@ -3,7 +3,7 @@ import CSS from './index.module.scss';
 import {connect} from 'react-redux';
 import axios from 'axios';
 import {Link} from 'react-router-dom';
-import {addGoods,changNum,AFfirm,Calculate,CheckAll} from '../../action';
+import {addGoods,changNum,AFfirm,Calculate,CheckAll,update} from '../../action';
 import Affirm from '../../component/Affirm';
 
 class Vehicle extends React.Component{
@@ -29,7 +29,8 @@ class Vehicle extends React.Component{
                 recommend:res.data.data.goodsList.slice(random,random+8),
                 market:res.data.data.market
             });
-        })
+        });
+        this.props.dispatch(update());
     }
 
     join = (goods)=>{

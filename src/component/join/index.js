@@ -9,8 +9,17 @@ class Join extends React.Component{
     constructor(props){
         super(props)
         this.state={
-            boole : false
+            boole : false,
+            quantity:0
         }
+    }
+
+    changQuantitym = ()=>{
+        let num = 0;
+        this.props.goodsList.forEach((item)=>{
+            num += item.num;
+        });
+        this.setState({quantity:num})
     }
 
     join = ()=>{
@@ -19,6 +28,14 @@ class Join extends React.Component{
         setTimeout(()=>{
             this.setState({boole:false})
         },1500);
+    }
+    
+    componentDidMount(){
+        this.changQuantitym()
+    }
+
+    componentWillReceiveProps(){
+        this.changQuantitym();
     }
 
     componentWillUnmount(){
@@ -32,7 +49,10 @@ class Join extends React.Component{
             <div>
                 <Link to='/'></Link>
                 <a></a>
-                <Link to='/Vegicle'>{this.props.goodsList.length>0&&<span className={CSS.quantity}>{this.props.goodsList.length}</span>}</Link>
+                <Link to='/Vegicle'>{this.props.goodsList.length>0&&
+                    <span className={CSS.quantity}>
+                    {this.state.quantity}</span>}
+                </Link>
             </div>
              <button onClick={this.join.bind(this)}>加入购物车</button>
             {this.state.boole&&<Hint/>}

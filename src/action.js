@@ -39,3 +39,9 @@ export const logIn = (boole)=>{
         boole:boole
     }
 }
+
+export const update = ()=>{
+    return{
+        type:"UPDATE"
+    }
+}
