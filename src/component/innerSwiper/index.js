@@ -16,7 +16,7 @@ export default class HomeSwiper extends React.Component{
                 clickable :true
             },
             autoplay: {
-                delay: 100000,
+                delay: 1000,
                 stopOnLastSlide: false,
                 disableOnInteraction: true,//false点击分页器后轮播
             },

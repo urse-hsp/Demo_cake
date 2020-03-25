@@ -10,14 +10,14 @@ export default class HomeSwiper extends React.Component{
     }
 
     componentDidMount(){
-        new Swiper ('.swiper-container', {
+        new Swiper ('.swiper-container_two', {
             loop: false, // 循环模式选项
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swiper-pagination_two',
                 clickable :true
             },
             autoplay: {
-                delay: 30000,
+                delay: 5000,
                 stopOnLastSlide: false,
                 disableOnInteraction: true,//false点击分页器后轮播
             },
@@ -33,7 +33,7 @@ export default class HomeSwiper extends React.Component{
     }
     
     render(){
-        return <div className="swiper-container ">
+        return <div className="swiper-container swiper-container_two">
                 <div className="swiper-wrapper">
                {
                     this.props.homeData&&this.props.homeData.map((item,index)=>{
@@ -43,7 +43,7 @@ export default class HomeSwiper extends React.Component{
                     })
                 }
             </div>
-        <div className="swiper-pagination"></div>
+        <div className="swiper-pagination swiper-pagination_two"></div>
     </div>
     }
 }

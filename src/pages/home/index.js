@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import CSS from './index.module.scss';
 import HomeSwiper from '../../component/HomeSwiper';
 import InnerSwiper from '../../component/innerSwiper';
-import GoTop from '../../component/goTop';
 
 class Home extends React.Component{
     constructor(props){
@@ -14,6 +13,7 @@ class Home extends React.Component{
             recommend:[]
         }
     }
+    
     componentDidMount(){
         axios({
             method:'get',

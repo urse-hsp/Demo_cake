@@ -23,3 +23,19 @@ code {
 .swiper-slide{
   position: relative;
 }
+
+.swiper-pagination-bullets{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5%;
+  margin-bottom: 1.5%;
+}
+.swiper-pagination-bullets span{
+  background-color: #fff;
+  opacity: 1;
+  width: 5px;
+  height: 5px;
+}
+.swiper-pagination-bullet-active{
+  background-color: #e8380d !important;
+}
